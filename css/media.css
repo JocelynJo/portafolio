@@ -1,0 +1,60 @@
+.hide-mobile {
+	display: none;
+}
+
+@media  (max-width : 600px) {
+	.hide-desktop {
+		display: none;
+	}
+
+	.show-mobile {
+		display: block;
+	}
+	.jo{
+		width: 30%;
+	
+		border:#FFBE0C solid 5px;
+	}
+	.sobremi{
+		height: 20%;
+		background: #FFBE0C;
+	}
+	.experiencia{
+
+		height: 30%;
+		background: #333437 ;
+		margin-top: -1%;
+
+	}
+	.desaparece{
+		display: none;
+		
+	}
+	.aparece{
+		display: block;
+		
+	}
+	.hola{
+		margin-top: 5%;
+	}
+	.lente-sol{
+		margin-top: 4%;
+		width: 60%;
+	}
+	.menu{
+		margin-top: 2%;
+	}
+	.title{
+		font-size: 150%;
+	}
+	
+	.experiencia{
+		height: 50%;
+	}
+	
+	.item{
+		width: 10%;
+	}
+
+
+}
